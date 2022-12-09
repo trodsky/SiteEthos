@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100;
+    background: linear-gradient(68.15deg, #483D8B 16.62%, #0000CD 85.61%);
+}
+
+.cabeçalho{
+    margin: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    left: 404px;
+
+}
+
+.cabeçalho-menu{
+    display: flex;
+    gap: 32px;
+
+}
+
+.cabeçalho-imagem{
+    height: 150px;
+    width: 150px;
+    border-radius: 70%;
+}
